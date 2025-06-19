@@ -1,0 +1,61 @@
+{
+  // ==============================================================================================
+  //                                INKWARRIOR'S GYROJETS TREASURE
+  // ==============================================================================================
+  
+  // ================================
+  //        Space Encounters
+  // ================================
+
+  "iwgyjet_banditGyroTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "iwgyjet_scrapgyrorifle"},
+        {"item" : "iwgyjet_banditlore-codex"}
+      ],
+      "poolRounds" : [
+        [0.2, 3],
+        [0.5, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.10, "pool" : "chestMoney"},
+        {"weight" : 0.90, "pool" : "commonSpaceItem"}
+      ]
+    }]
+  ],
+
+  "iwgyjet_uscmGyroTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "iwgyjet_uscmgyrorifle"},
+        {"item" : "iwgyjet_uscmlore-codex"}
+      ],
+      "poolRounds" : [
+        [0.2, 3],
+        [0.5, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.32, "pool" : "chestMoney"},
+        {"weight" : 0.65, "pool" : "commonSpaceItem"}
+      ]
+    }]
+  ],
+
+  "iwgyjet_miniknogGyroTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "iwgyjet_miniknoggyropistol"},
+        {"item" : "iwgyjet_miniknoglore-codex"}
+      ],
+      "poolRounds" : [
+        [0.2, 3],
+        [0.5, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.32, "pool" : "chestMoney"},
+        {"weight" : 0.65, "pool" : "commonSpaceItem"}
+      ]
+    }]
+  ]
+}
+

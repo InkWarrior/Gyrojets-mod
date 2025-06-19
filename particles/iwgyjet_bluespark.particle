@@ -1,0 +1,20 @@
+{
+  "kind" : "iwgyjet_bluespark",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1.0,
+    "color" : [0, 140, 217, 255],
+    "fade" : 0.9,
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [20, 20],
+    "light" : [0, 18, 51],
+    "destructionTime" : 0.8,
+    "layer" : "back",
+    "collidesLiquid" : true,
+    "variance" : {
+      "finalVelocity" : [1.5, 1.5],
+      "size" : 0.5
+    }
+  }
+}

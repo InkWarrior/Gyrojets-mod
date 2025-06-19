@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcraregyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgencultistgyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgenbanditgyropistol"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgenhumangyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgenhumangyropistol"
+    }
+]

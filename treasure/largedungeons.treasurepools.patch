@@ -1,0 +1,112 @@
+[
+  {
+    "op": "add",
+    "path": "/apexbaseChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.05,
+      "item": [
+        "iwgyjet_genmnkggyrorifle",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/apexbaseChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.05,
+      "item": [
+        "iwgyjet_genmnkggyropistol",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/floranhuntinggroundsChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyrorifle",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/floranhuntinggroundsChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyropistol",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/florancanyonChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyrorifle",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/florancanyonChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyropistol",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/floranvillagetowerChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyrorifle",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/floranvillagetowerChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": [
+        "iwgyjet_genflorangyropistol",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/humancampChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.05,
+      "item": [
+        "iwgyjet_genhumangyrorifle",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/humancampChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.05,
+      "item": [
+        "iwgyjet_genhumangyropistol",
+        1
+      ]
+    }
+  }
+]

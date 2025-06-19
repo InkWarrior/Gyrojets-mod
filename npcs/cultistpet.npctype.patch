@@ -1,0 +1,22 @@
+[
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "npcassaultrifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "npcshotgun"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgencultistgyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/sheathedprimary/-",
+        "value": "iwgyjet_npcgencultistgyropistol"
+    }
+]

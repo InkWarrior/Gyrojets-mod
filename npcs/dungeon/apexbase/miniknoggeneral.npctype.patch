@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "iwgyjet_npcgenmnkggyropistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/sheathedprimary/-",
+    "value": {
+      "name": "iwgyjet_npcgenmnkggyrorifle"
+    }
+  }
+]

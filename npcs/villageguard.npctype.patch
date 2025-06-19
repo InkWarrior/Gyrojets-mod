@@ -1,0 +1,142 @@
+[
+    [
+        {
+            "op": "add",
+            "path": "/items/default/0/1/0/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/default/0/1/0/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        }
+    ],
+    [
+        {
+            "op": "add",
+            "path": "/items/apex/0/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/apex/0/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/apex/1/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/apex/1/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/apex/2/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/apex/2/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        }
+    ],
+    [
+        {
+            "op": "add",
+            "path": "/items/human/0/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/human/0/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyropistol"
+        },
+        {
+            "op": "add",
+            "path": "/items/human/1/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/human/1/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyropistol"
+        },
+        {
+            "op": "add",
+            "path": "/items/human/2/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/human/2/1/1/primary/-",
+            "value": "iwgyjet_npcgenhumangyropistol"
+        }
+    ],
+    [
+        {
+            "op": "add",
+            "path": "/items/hylotl/0/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/hylotl/0/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/hylotl/1/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/hylotl/1/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/hylotl/2/1/1/primary/-",
+            "value": "iwgyjet_npcgyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/hylotl/2/1/1/primary/-",
+            "value": "iwgyjet_npcraregyrorifle"
+        }
+    ],
+    [
+        {
+            "op": "add",
+            "path": "/items/floran/0/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/floran/0/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyropistol"
+        },
+        {
+            "op": "add",
+            "path": "/items/floran/1/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/floran/1/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyropistol"
+        },
+        {
+            "op": "add",
+            "path": "/items/floran/2/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyrorifle"
+        },
+        {
+            "op": "add",
+            "path": "/items/floran/2/1/0/sheathedprimary/-",
+            "value": "iwgyjet_npcgenflorangyropistol"
+        }
+    ]
+]

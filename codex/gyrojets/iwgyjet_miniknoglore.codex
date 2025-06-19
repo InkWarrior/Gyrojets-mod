@@ -1,0 +1,23 @@
+{
+  "id" : "iwgyjet_miniknoglore",
+  "species" : "apex",
+  "title" : "Log entry - Gyrojet research",
+  "description" : "A scientist's log entry about the development of a Gyrojet weapon.",
+  "icon" : "miniknoglore.png",
+  "contentPages" : [
+  	"This project has been an intriguing departure from our usual work. Gyrojet weaponry is a fascinating technology to explore, and if it weren't for all the data we stole from that human organization we might have never considered investigating it.
+
+Since the Miniknog has no particular expectations for this technology, we have the freedom to innovate as we see fit. It's refreshing-and almost unsettling-not to encounter the usual obstacles and",
+
+"interferences typical of a Miniknog project. Nevertheless, I intend to make the most of this opportunity.
+
+I discovered that a large gun is not necessary for this technology to be effective; most of the work is done by the projectile itself, making a handgun sufficient. Designing an appealing and functional projectile was challenging, but I found inspiration in our novel plasma rifles with their bouncing ammunition, which led me to create something similar.",
+
+"So far, the results are promising. I believe that the projectile's bouncing properties make it an excellent option for close-quarters combat, potentially increasing our soldiers' effectiveness against the rebels. I'll continue to explore what else can be achieved with this weapon."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 100
+  }
+}

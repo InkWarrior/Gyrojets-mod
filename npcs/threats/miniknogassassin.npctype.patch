@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "iwgyjet_npcgenmnkggyrorifle"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "iwgyjet_npcgenmnkggyropistol"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "iwgyjet_npcgenmnkggyrorifle"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/1/primary/-",
+    "value": "iwgyjet_npcgenmnkggyropistol"
+  }
+]

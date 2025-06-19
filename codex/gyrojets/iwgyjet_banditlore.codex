@@ -1,0 +1,35 @@
+{
+  "id" : "iwgyjet_banditlore",
+  "title" : "The Nailjet",
+  "description" : "A casette tape of a recorded conversation between two pirates.",
+  "icon" : "banditcover.png",
+  "contentPages" : [
+"^cornflowerblue;-You know, what makes a Gyrojet gun exceptional is-^reset;
+^red;-Why is it ugly? I paid for something better.^reset;
+^cornflowerblue;-... I was getting to that, can you let me finish?^reset;
+^red;-Fine, go on.^reset;
+^cornflowerblue;-So, what makes a Gyrojet gun exceptional is, surprisingly, not the weapon itself bu-^reset;
+^red;-what does it then?^reset;
+^cornflowerblue;-Shhh, it's not the weapon, but the microjets it uses. You see, if you want fanciness then you could go with the big corpos or the Peacekeepers, but I^reset;",
+
+"^cornflowerblue;prefer more functionality. The gun itself is inconsequential, that's why this one is ugly looking, because even with some pipes, bandages and rusty iron plates you can make a functional Gyrojet gun, but without the proper ammo your gun is worhtless.^reset;
+^red;-Spit it out already!^reset;
+^cornflowerblue;-Well, I present you the Nailjet! In simpler words, a microjet gun that fires shrapnel! I assure you that this little monster not only packs the punch of a regular microjet but is capable of inflicting high damage to anything in the surrounding area.^reset;",
+
+"^red;-It uses nails?^reset;
+^cornflowerblue;-It can use anything that works as shrapnel! That's why it's so effective, because it can even turn any junk into a dangerous projectile!^reset;
+^red;-Fascinating, I'm excited to try it!^reset;
+^cornflowerblue;-There's one detail, however.^reset;
+^red;-Huh?^reset;
+^cornflowerblue;-You see, you need somebody to mass produce your ammo, you can do it manually, but it will take an eternity to do it with bare hands.^reset;
+^red;-Ha! That's why I paid you! so you can build me the ammo! Let me - wait, where are you going?^reset;",
+
+"^cornflowerblue;-That's another satisfied client! Haha, I hope you like your brand-new gadget!^reset;
+^red;-Hey no! I need the ammo! Get your sorry butt back here! Hey!!!^reset;"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 100
+  }
+}

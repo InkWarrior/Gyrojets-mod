@@ -1,0 +1,68 @@
+[
+    [
+        {
+            "op": "test",
+            "path": "/metadata/anchor"
+        },
+        {
+            "op": "add",
+            "path": "/metadata/anchor/-",
+            "value": "iwgyjet_gyrobandithideout"
+        },
+        {
+            "op": "add",
+            "path": "/metadata/anchor/-",
+            "value": "iwgyjet_gyrominiknogbase"
+        },
+        {
+            "op": "add",
+            "path": "/metadata/anchor/-",
+            "value": "iwgyjet_gyrouscmbunker"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/parts"
+        },
+        {
+            "op": "add",
+            "path": "/parts/-",
+            "value": {
+                "name": "iwgyjet_gyrobandithideout",
+                "rules": [],
+                "def": [
+                    "tmx",
+                    "iwgyjet_gyrobandithideout.json"
+                ],
+                "chance": 1
+            }
+        },
+        {
+            "op": "add",
+            "path": "/parts/-",
+            "value": {
+                "name": "iwgyjet_gyrominiknogbase",
+                "rules": [],
+                "def": [
+                    "tmx",
+                    "iwgyjet_gyrominiknogbase.json"
+                ],
+                "chance": 1
+            }
+        },
+        {
+            "op": "add",
+            "path": "/parts/-",
+            "value": {
+                "name": "iwgyjet_gyrouscmbunker",
+                "rules": [],
+                "def": [
+                    "tmx",
+                    "iwgyjet_gyrouscmbunker.json"
+                ],
+                "chance": 1
+            }
+        }
+    ]
+]

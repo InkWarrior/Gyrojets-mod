@@ -1,0 +1,22 @@
+[
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/primary/-",
+        "value": "iwgyjet_npcgyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/primary/-",
+        "value": "iwgyjet_npcraregyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/primary/-",
+        "value": "iwgyjet_npcgenbanditgyrorifle"
+    },
+    {
+        "op": "add",
+        "path": "/items/override/0/1/0/primary/-",
+        "value": "iwgyjet_npcgenbanditgyropistol"
+    }
+]

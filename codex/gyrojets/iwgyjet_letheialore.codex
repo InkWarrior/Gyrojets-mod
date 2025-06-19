@@ -1,0 +1,30 @@
+{
+  "id" : "iwgyjet_lethiealore",
+  "species" : "hylotl",
+  "title" : "Drilljet Rifle Manual",
+  "description" : "A manual on the latest prototype of the Drilljet Experimental Rifle.",
+  "icon" : "letheiacover.png",
+  "contentPages" : [
+"We at ^yellow;Letheia Corporation^reset; are deeply grateful for your participation in the testing of the ^#db6036;Drilljet Experimental Rifle^reset;, Your involvement will be invaluable in advancing this ambitious project.
+The ^#db6036;Drilljet Experimental Rifle^reset; is designed primarily to penetrate terrain and facilitate excavations. It features state-of-the-art drill technology combined with the latest in Gyrojet design. Additionally, the rifle includes a primary firing mode to assist the user in defending against pirates and other threats.",
+
+"Based on the tests conducted so far, we have made the following observations and clarifications:
+
+  ^yellow;-The Drilljet, despite being a powerful drill, gets stuck on the surface from time to time; deploying a second Drilljet close to the first one usually helps to dislodge it.^reset;
+
+  ^orange;-The Drilljet tends to get stuck less if deployed at a diagonal angle; this is a known defect in the current Drilljet prototype and and efforts are^reset;",
+
+"^orange;underway to make it more effective on horizontal and vertical angles.^reset;
+
+  ^orange;-In some occasions, the Drilljet can bounce off terrain while in operation and deviate from its course; there have already many instances of Drilljets completely getting out of control, hence why you should always wear protective equipment and stay at a safe distance.^reset;
+
+  ^red;-DO NOT POINT THE DRILLJET AT YOURSELF OR ANY OF YOUR COWORKERS.^reset;",
+
+"Despite these observations, we can assure that the ^#db6036;Drilljet Experimental Rifle^reset; satisfies intergalactic safety regulations, and we can assure that you won't suffer major problems during testing. Have a nice day!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 100
+  }
+}

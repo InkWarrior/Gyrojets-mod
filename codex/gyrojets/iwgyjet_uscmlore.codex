@@ -1,0 +1,21 @@
+{
+  "id" : "iwgyjet_uscmlore",
+  "species" : "human",
+  "title" : "Project: SABATON - User Manual",
+  "description" : "A weapons manual for a prototype weapon developed by the USCM.",
+  "icon" : "uscmcover.png",
+  "contentPages" : [
+  	"Greetings Loyal Employee!
+
+The board has selected you as a user of our prototype ^green;Heavy Gyrojet Rifle^reset;, as part of ^green;Project: SABATON^reset;. The ^green;Heavy Gyrojet Rifle^reset; is a recoiless weapon that uses self-propelled ammunition instead of conventional ammo.
+
+It uses a heavy-type microjet, which hits target with greater force than regular microjets.",
+
+"Since most of our budget is going to ^orange;Project: PARASPRITE^reset;, all feedback we get from you and other users of ^green;Project: SABATON^reset; will be used to evaluate its quality and analyze if it's worth greenlighting and mass producing it. We encourage you to use it on your combat training routines and field missions. Don't forget to send your feedback reports in time!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 100
+  }
+}

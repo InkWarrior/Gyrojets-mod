@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/commonGun/1/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "iwgyjet_commongyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uncommonGun/1/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "iwgyjet_uncommongyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rareGun/1/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "iwgyjet_raregyrorifle"
+    }
+  }
+]

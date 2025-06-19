@@ -1,0 +1,66 @@
+[
+  {
+    "op": "add",
+    "path": "/floranwildhuntertreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genflorangyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/floranwildhuntertreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genflorangyropistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genbanditgyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genbanditgyropistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genhumangyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "iwgyjet_genhumangyropistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gangmemberTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "iwgyjet_genneogyrorifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gangmemberTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "iwgyjet_genneogyropistol"
+    }
+  }
+]
