@@ -1,0 +1,175 @@
+{
+  "itemName" : "iwgyjet_raregyrorifle",
+  "price" : 1240,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A mass produced, military grade GyroJet rifle.",
+  "shortdescription" : "Rare GyroJet Rifle",
+  "tooltipKind" : "gun",
+  "category" : "gyroRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleunlit" : {
+          "properties" : {
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+            "offset" : [-1.5, 0.375],
+            "transformationGroups" : ["weapon"],
+            "fullbright" : true,
+            "zLevel" : 1
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.0] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "lights" : {
+      "laser" : {
+        "transformationGroups" : ["weapon"],
+        "active" : true,
+        "position" : [1.875, 0.375],
+        "color" : [90, 0, 0]
+	  }
+    }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "scriptedAnimationParameters" : {
+    "beams" : [
+      {
+        "offset" : [2.75, 0.125],
+        "color" : [255, 0, 0, 128],
+        "length" : 60,
+        "segments" : 6,
+        "angle" : 0
+      }
+    ]
+  },
+
+  "baseOffset" : [-1.5, 0.375],
+  "muzzleOffset" : [-0.5, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : [0.25, 0.32],
+    "baseDps" : [14, 15],
+    "energyUsage" : [38, 41],
+    "inaccuracy" : 0.0,
+
+    "burstTime" : 0.075,
+    "burstCount" : [2,3],
+    "fireType" : ["auto", "burst"],
+
+    "projectileType" : "iwgyjet_uncommonmicrojet",
+
+    "projectileParameters" : {
+      "knockbackRange" : [4,8]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "iwgyjet_gyroriflenames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAbility" : { "projectileType" : "iwgyjet_firemicrojet", "projectileParameters" : { "statusEffects" : [ "burning" ] } },
+        "fireSounds" : [ "/sfx/gun/iwgyjet_gyroshot1.ogg", "/sfx/gun/iwgyjet_gyroshot2.ogg", "/sfx/gun/iwgyjet_gyroshot3.ogg", "/sfx/gun/iwgyjet_gyroshot6.ogg" ]
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileType" : "iwgyjet_icemicrojet", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } },
+        "fireSounds" : [ "/sfx/gun/iwgyjet_gyroshot1.ogg", "/sfx/gun/iwgyjet_gyroshot2.ogg", "/sfx/gun/iwgyjet_gyroshot3.ogg", "/sfx/gun/iwgyjet_gyroshot6.ogg" ]
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileType" : "iwgyjet_poisonmicrojet", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } },
+        "fireSounds" : [ "/sfx/gun/iwgyjet_gyroshot1.ogg", "/sfx/gun/iwgyjet_gyroshot2.ogg", "/sfx/gun/iwgyjet_gyroshot3.ogg", "/sfx/gun/iwgyjet_gyroshot6.ogg" ]
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileType" : "iwgyjet_electricmicrojet", "projectileParameters" : { "statusEffects" : [ "electrified" ] } },
+        "fireSounds" : [ "/sfx/gun/iwgyjet_gyroshot1.ogg", "/sfx/gun/iwgyjet_gyroshot2.ogg", "/sfx/gun/iwgyjet_gyroshot3.ogg", "/sfx/gun/iwgyjet_gyroshot6.ogg" ]
+      }
+    },
+    "animationParts" : {
+      "butt" : {
+        "path" : "/items/active/weapons/ranged/iwgyjet_gyrorifles/uncommon/butt/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/iwgyjet_gyrorifles/uncommon/middle/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/ranged/iwgyjet_gyrorifles/rare/barrel/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : "/items/active/weapons/gyrojets/iwgyjet_tier3gyrorifle/muzzleflash.png"
+    },
+    "gunParts" : ["butt", "middle", "barrel"],
+    "altAbilities" : [
+      "iwgyjet_microjetsalvo",
+      "iwgyjet_homingmicrojets",
+      "iwgyjet_guidedmicrojets",
+      "iwgyjet_techjetmine",
+      "iwgyjet_flarelauncher",
+      "grenadelauncher",
+	  "iwgyjet_rocketammo"
+    ],
+    "palette" : "/items/active/weapons/colors/iwgyjet_gyroweapons.weaponcolors",
+    "iconDrawables" : ["butt", "middle", "barrel"]
+  }]
+}
