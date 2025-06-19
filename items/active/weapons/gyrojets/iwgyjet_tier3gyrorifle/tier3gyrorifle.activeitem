@@ -1,0 +1,89 @@
+{
+  "itemName" : "iwgyjet_tier3gyrorifle",
+  "level" : 3,
+  "price" : 1260,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A modern Gyrojet Assault Rifle, utilizes a more powerful type of ammo.",
+  "shortdescription" : "ExoJet ^orange;Firepower^reset;",
+  "tooltipKind" : "gun",
+  "category" : "gyroRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+
+  "inventoryIcon" : "gyrorifle.png:fire.1",
+
+  "animation" : "tier3gyrorifle.animation",
+  "animationParts" : {
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.5] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+  "baseOffset" : [0.625, 0.375],
+  "muzzleOffset" : [2.0, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.25,
+    "baseDps" : 13.0,
+    "energyUsage" : 35.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "iwgyjet_exojet",
+    "projectileParameters" : {
+      "knockback" : 10
+	},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "altAbilityType" : "iwgyjet_flamebomb",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
