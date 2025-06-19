@@ -1,0 +1,55 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 2,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.0] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/iwgyjet_gyroshot1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Air Burst",
+    "type" : "iwgyjet_bulletburst",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "iwgyjet_bulletjet",
+    "projectileParameters" : {},
+    "fireTime" : 0.35,
+    "baseDamageMultiplier" : 1.5,
+    "energyUsage" : 45,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/labels/gyroRifle",
+    "value": "GyroJet Rifle"
+  },
+  {
+    "op": "add",
+    "path": "/labels/gyroPistol",
+    "value": "GyroJet Pistol"
+  }
+]

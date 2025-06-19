@@ -1,0 +1,67 @@
+[
+  {
+    "op": "add",
+    "path": "/iwgyjet_techjetmine",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_techjetmine/iwgyjet_techjetmine.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_flarelauncher",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_flarelauncher/iwgyjet_flarelauncher.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_guidedaegijets",
+    "value": "/items/active/weapons/ranged/abilities/guidedrocket/iwgyjet_guidedaegijets.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_homingheliojets",
+    "value": "/items/active/weapons/ranged/abilities/homingrocket/iwgyjet_homingheliojets.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_elementaljets",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_elementaljets/iwgyjet_elementaljets.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_flamebomb",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_flamebomb/iwgyjet_flamebomb.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_stungrenade",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_stungrenade/iwgyjet_stungrenade.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_flashlight",
+    "value": "/items/active/weapons/ranged/abilities/flashlight/iwgyjet_flashlight.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_rocketammo",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_rocketammo/iwgyjet_rocketammo.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_homingmicrojets",
+    "value": "/items/active/weapons/ranged/abilities/homingrocket/iwgyjet_homingmicrojets.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_guidedmicrojets",
+    "value": "/items/active/weapons/ranged/abilities/guidedrocket/iwgyjet_guidedmicrojets.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_microjetsalvo",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_microjetsalvo/iwgyjet_microjetsalvo.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/iwgyjet_bulletburst",
+    "value": "/items/active/weapons/ranged/abilities/iwgyjet_bulletburst/iwgyjet_bulletburst.weaponability"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "transformationGroups" : ["muzzle"],
+        "offsetPart" : "muzzleFlash",
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.0] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "physicalGuided" : [ "/sfx/gun/iwgyjet_gyroshot5.ogg" ],
+      "fireGuided" : [ "/sfx/gun/iwgyjet_gyroshot5.ogg" ],
+      "iceGuided" : [ "/sfx/gun/iwgyjet_gyroshot5.ogg" ],
+      "electricGuided" : [ "/sfx/gun/iwgyjet_gyroshot5.ogg" ],
+      "poisonGuided" : [ "/sfx/gun/iwgyjet_gyroshot5.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Guided Microjets",
+    "type" : "iwgyjet_guidedmicrojets",
+    "scripts" : ["/items/active/weapons/ranged/abilities/guidedrocket/guidedrocket.lua"],
+    "class" : "GuidedRocket",
+
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "iwgyjet_uncommonmicrojetguided" },
+      "fire" : { "projectileType" : "iwgyjet_firemicrojetguided" },
+      "electric" : { "projectileType" : "iwgyjet_electricmicrojetguided" },
+      "ice" : { "projectileType" : "iwgyjet_icemicrojetguided" },
+      "poison" : { "projectileType" : "iwgyjet_poisonmicrojetguided" }
+    },
+    "fireTime" : 0.25,
+    "baseDps" : 16.0,
+    "energyUsage" : 50.0,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+	
+    "projectileParameters" : { "knockback" : 25 },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

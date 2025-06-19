@@ -1,0 +1,74 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "transformationGroups" : ["muzzle"],
+        "offsetPart" : "muzzleFlash",
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.0] },
+          { "particle" : "iwgyjet_purplespark", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/iwgyjet_gyroshot3.ogg" ],
+      "targetAcquired" : [ "/sfx/interface/rocket_lockon2.ogg" ]
+    }
+  },
+  "animationScripts" : [
+    "/items/active/weapons/ranged/abilities/homingrocket/homingrocketanimation.lua"
+  ],
+
+  "ability" : {
+    "name" : "Homing HelioJets",
+    "type" : "iwgyjet_homingheliojets",
+    "scripts" : ["/items/active/weapons/ranged/abilities/homingrocket/homingrocket.lua"],
+    "class" : "HomingRocketAttack",
+
+    "projectileType" : "iwgyjet_heliojethoming",
+    "projectileParameters" : { "knockback" : 25 },
+
+    "fireTime" : 0.8,
+    "baseDps" : 14.0,
+    "energyUsage" : 42.5,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "queryRange" : 50,
+    "rocketWindupTime" : 0.15,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

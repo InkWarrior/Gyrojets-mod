@@ -1,0 +1,63 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 3,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.5, 0.0] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/rocket1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Rocket Ammo",
+    "type" : "iwgyjet_rocketammo",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "rocketshell" },
+      "fire" : { "projectileType" : "fireplasmarocketstatus" },
+      "electric" : { "projectileType" : "electricplasmarocketstatus" },
+      "ice" : { "projectileType" : "iceplasmarocketstatus" },
+      "poison" : { "projectileType" : "poisonplasmarocketstatus" }
+    },
+    "projectileParameters" : {},
+
+    // use baseDps and fireTime from primary fire
+
+    "baseDamageMultiplier" : 1.5,
+    "energyUsage" : 55,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
