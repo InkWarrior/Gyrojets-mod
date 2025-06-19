@@ -1,0 +1,90 @@
+{
+  "itemName" : "iwgyjet_peacekeepergyropistol",
+  "level" : 5,
+  "price" : 1660,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A GyroJet handgun updated with state-of-art Peacekeeper technology.",
+  "shortdescription" : "^magenta;Heavy Duty^reset;",
+  "tooltipKind" : "gun",
+  "category" : "gyroPistol",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "inventoryIcon" : "gyropistol.png:fire.1",
+
+  "animation" : "peacekeepergyropistol.animation",
+  "animationParts" : {
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-1.875, 0.0] },
+          { "particle" : "iwgyjet_purplespark", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.025, 0.175],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.3,
+    "baseDps" : 15.0,
+    "energyUsage" : 40.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "iwgyjet_PKjet",
+    "projectileParameters" : {
+      "knockback" : 10
+	},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "altAbilityType" : "iwgyjet_stungrenade",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

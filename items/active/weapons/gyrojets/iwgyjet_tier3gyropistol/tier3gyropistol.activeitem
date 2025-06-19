@@ -1,0 +1,113 @@
+{
+  "itemName" : "iwgyjet_tier3gyropistol",
+  "level" : 3,
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Even stronger than other GyroJet handguns, be careful where you shoot it!",
+  "shortdescription" : "ExoJet ^orange;Killbox 13^reset;",
+  "tooltipKind" : "gun",
+  "category" : "gyroPistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "inventoryIcon" : "gyropistol.png:fire.1",
+
+  "animation" : "tier3gyropistol.animation",
+  "animationParts" : {
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.0, 0.75] },
+          { "particle" : "fireember", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "lights" : {
+      "laser" : {
+        "transformationGroups" : ["weapon"],
+        "active" : true,
+        "position" : [2.5, 0.25],
+        "color" : [90, 0, 0]
+      }
+    }
+  },
+
+  "animationScripts" : [
+    "/items/active/effects/laserbeam.lua"
+  ],
+  "scriptedAnimationParameters" : {
+    "beams" : [
+      {
+        "offset" : [1.25, 0],
+        "color" : [255, 255, 0, 128],
+        "length" : 30,
+        "segments" : 3,
+        "angle" : 0
+      }
+    ]
+  },
+
+  "baseOffset" : [0.5, 0.25],
+  "muzzleOffset" : [1.025, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.37,
+    "baseDps" : 14.5,
+    "energyUsage" : 30.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+    "burstCount" : 2,
+    "burstTime" : 0.1,
+
+    "projectileType" : "iwgyjet_exojet",
+    "projectileParameters" : {
+      "knockback" : 10
+	},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

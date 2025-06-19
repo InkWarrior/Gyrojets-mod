@@ -1,0 +1,90 @@
+{
+  "itemName" : "iwgyjet_miniknoggyropistol",
+  "fixedLevel" : false,
+  "price" : 1260,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A Miniknog twist on the GyroJet Handgun, with ricochet technology to pull off stylish shots.",
+  "shortdescription" : "^cyan;Brave New World^reset;",
+  "tooltipKind" : "gun",
+  "category" : "gyroPistol",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "inventoryIcon" : "gyropistol.png:fire.1",
+
+  "animation" : "miniknoggyropistol.animation",
+  "animationParts" : {
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.0, 0.25] },
+          { "particle" : "iwgyjet_bluespark", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.5, 0.25],
+  "muzzleOffset" : [1.025, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.3,
+    "baseDps" : 15.0,
+    "energyUsage" : 40.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+    "burstCount" : 3,
+    "burstTime" : 0.1,
+
+    "projectileType" : "iwgyjet_miniknogjet",
+    "projectileParameters" : {
+      "knockback" : 10
+	},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
