@@ -1,0 +1,85 @@
+{
+  "itemName" : "iwgyjet_gencultistgyropistol",
+  "fixedLevel" : false,
+  "price" : 880,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An old GyroJet pistol model, repurposed by the Occasus cult.",
+  "shortdescription" : "Starless",
+  "tooltipKind" : "gun",
+  "category" : "gyroPistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "inventoryIcon" : "gyropistol.png:fire.1",
+
+  "animation" : "gencultistgyropistol.animation",
+  "animationParts" : {
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 2,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-2.0, 0.25] },
+          { "particle" : "iwgyjet_yellowspark", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+  "baseOffset" : [0.5, 0.25],
+  "muzzleOffset" : [1.025, 0.175],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.37,
+    "baseDps" : 13.5,
+    "energyUsage" : 25.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "iwgyjet_genmicrojet",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
