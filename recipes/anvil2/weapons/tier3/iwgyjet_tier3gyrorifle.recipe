@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 7 },
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : { "item" : "iwgyjet_tier3gyrorifle", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

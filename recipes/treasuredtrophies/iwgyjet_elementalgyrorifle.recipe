@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "scorchedcore", "count" : 25 },
+    { "item" : "cryonicextract", "count" : 25 },
+    { "item" : "venomsample", "count" : 25 },
+    { "item" : "staticcell", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "iwgyjet_elementalgyrorifle",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

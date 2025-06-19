@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 8 },
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "volatilepowder", "count" : 2 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : { "item" : "iwgyjet_tier6gyrorifle", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

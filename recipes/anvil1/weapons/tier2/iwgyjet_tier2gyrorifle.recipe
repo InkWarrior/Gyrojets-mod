@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 7 },
+    { "item" : "copperbar", "count" : 3 }
+  ],
+  "output" : { "item" : "iwgyjet_tier2gyrorifle", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

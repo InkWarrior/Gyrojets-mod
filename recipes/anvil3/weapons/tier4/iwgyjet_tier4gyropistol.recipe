@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 3 },
+    { "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : { "item" : "iwgyjet_tier4gyropistol", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}
